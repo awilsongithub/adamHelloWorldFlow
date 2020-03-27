@@ -34,6 +34,8 @@ source = "WorkspaceName|AppName", //the workspace and app that triggers the func
 
 item_id = "5555555555", //the item id that you are using for testing. This can be found inside the item in Podio under Actions>Developer.
 
+Right Click on the project and select properties (at the bottom). Select Debug. Select New. Name it the FunctionName*. Delete the default. Change Launch: to Project. 
+
 Rename the aws....json file with your function name. Remove "TemplateFunction" from the name and replace it with the name of your function.
 
 Inside aws...json file, update the function-handler to 
@@ -47,3 +49,5 @@ Inside aws...json file, update the function-name to
 **"FunctionName" and all similar examples need to be what you named YOUR function. FuntionName in here is a placeholder.
 
 Write your function code inside the try{} block.
+
+Do not push your function to this repo, that will change the template to your function.
