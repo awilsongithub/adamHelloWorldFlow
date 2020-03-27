@@ -51,3 +51,7 @@ Inside aws...json file, update the function-name to
 Write your function code inside the try{} block.
 
 Do not push your function to this repo, that will change the template to your function.
+
+Clone this, then make it a template following the instructions here: https://docs.microsoft.com/en-us/visualstudio/ide/how-to-create-project-templates?view=vs-2019
+
+Create new projects from the template inside Visual Studio.
