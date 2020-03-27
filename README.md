@@ -4,7 +4,7 @@ This is a generic template with needed Nugets and set up for work within Podio.
 
 Rename TemplateFunction.cs to your function name. 
 Start the name of the function with the client name, and then what the function does.
-Update var functionName (roughly line 79) inside TemplateFunction.cs
+Update var functionName (roughly line 67) inside TemplateFunction.cs
 
 Rename the namespace to your function name, with Container at the end. {functionName*}Container
 StartUp.cs namespace needs to be Saasafras.Event.Container
@@ -27,3 +27,5 @@ Inside aws...json file, update the function-name to
 "FunctionName*"
 
 **"FunctionName" and all similar examples need to be what you named YOUR function. FuntionName in here is a placeholder.
+
+Write your function code inside the try{} block.
