@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
-    <StartupObject>PodioEventHandlerContainer_v1._22.LambdaContainer</StartupObject>
+    <StartupObject>TemplateFunctionContainer.LambdaContainer</StartupObject>
     <OutputType>Exe</OutputType>
   </PropertyGroup>
   <ItemGroup>

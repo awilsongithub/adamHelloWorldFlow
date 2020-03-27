@@ -21,7 +21,7 @@ using Saasafras.Event;
 //Use dotnet lambda deploy-function -cfg aws-lambda-tools-{NameOfThisFunction}.json 
 //change namespace to {functionName}Container, for clarity
 
-namespace PodioEventHandlerContainer_v1._22
+namespace TemplateFunctionContainer
 {
     public class MyHandler : IEventHandler<SaasafrasSolutionCommand<SaasafrasPodioEvent>>
     {
@@ -46,10 +46,6 @@ namespace PodioEventHandlerContainer_v1._22
             client.log("This will go the client log file.");
             solution.log("This will go to the solution log file.");
 
-            //you can get metadata on the trigger v
-            //if (command.resource.type != "item.create")
-            //throw new Exception("expecting an item.create event");
-
             //check for valid itemId
             if (!int.TryParse(command.resource.item_id, out int itemId))
                 throw new ArgumentException("we were expecting an integer");
@@ -66,11 +62,6 @@ namespace PodioEventHandlerContainer_v1._22
             //get item that fired the event
             var currentItem = await podio.GetFullItem(itemId) ?? throw new Exception($"failed to get item {itemId}");
             client.log($"Item was created in {currentItem.App.Config.Name}.");
-
-            //How to use the dictionary
-            var appId = await saasafrasDictionary.GetKeyAsInt("Space Name|App Name");
-            if (appId != currentItem.App.AppId)
-                solution.log($"");
 
             //update the function name
             var functionName = "TemplateFunction";

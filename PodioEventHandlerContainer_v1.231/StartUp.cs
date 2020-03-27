@@ -9,14 +9,14 @@ using Saasafras.Interfaces;
 using Saasafras.Lambda.Interfaces;
 using Saasafras.Model;
 
-namespace PodioEventHandlerContainer_v1._22
+namespace Saasafras.Event.Container
 {
     public class StartUp : IConfigureServices
     {
         public IServiceCollection Configure(IServiceCollection services)
         {
             services.AddScoped<IAmazonCloudWatchLogs, AmazonCloudWatchLogsClient>();
-            services.AddScoped<IEventHandler<SaasafrasSolutionCommand<SaasafrasPodioEvent>>, MyHandler>();
+            services.AddScoped<IEventHandler<SaasafrasSolutionCommand<SaasafrasPodioEvent>>, TemplateFunctionContainer.MyHandler>();
             services.AddScoped<ISolutionLoggerFactory, LambdaSolutionLoggerFactory>();
             services.AddScoped<ICommandLambdaMapper, DefaultCommandLambdaMapper>();
             services.AddScoped<IPreprocess<SaasafrasSolutionCommand<SaasafrasPodioEvent>>, PodioContainerPreprocessor>();
