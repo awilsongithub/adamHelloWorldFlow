@@ -1,0 +1,7 @@
+C:\Users\melis\source\repos\PodioEventHandlerContainer_v1.231\PodioEventHandlerContainer_v1.231\bin\Debug\netcoreapp2.1\PodioEventHandlerContainer_v1.231.deps.json
+C:\Users\melis\source\repos\PodioEventHandlerContainer_v1.231\PodioEventHandlerContainer_v1.231\bin\Debug\netcoreapp2.1\PodioEventHandlerContainer_v1.231.runtimeconfig.json
+C:\Users\melis\source\repos\PodioEventHandlerContainer_v1.231\PodioEventHandlerContainer_v1.231\bin\Debug\netcoreapp2.1\PodioEventHandlerContainer_v1.231.runtimeconfig.dev.json
+C:\Users\melis\source\repos\PodioEventHandlerContainer_v1.231\PodioEventHandlerContainer_v1.231\bin\Debug\netcoreapp2.1\PodioEventHandlerContainer_v1.231.dll
+C:\Users\melis\source\repos\PodioEventHandlerContainer_v1.231\PodioEventHandlerContainer_v1.231\obj\Debug\netcoreapp2.1\PodioEventHandlerContainer_v1.231.csprojAssemblyReference.cache
+C:\Users\melis\source\repos\PodioEventHandlerContainer_v1.231\PodioEventHandlerContainer_v1.231\obj\Debug\netcoreapp2.1\PodioEventHandlerContainer_v1.231.AssemblyInfoInputs.cache
+C:\Users\melis\source\repos\PodioEventHandlerContainer_v1.231\PodioEventHandlerContainer_v1.231\obj\Debug\netcoreapp2.1\PodioEventHandlerContainer_v1.231.AssemblyInfo.cs

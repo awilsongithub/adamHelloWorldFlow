@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\melis\\source\\repos\\PodioEventHandlerContainer_v1.231\\PodioEventHandlerContainer_v1.231\\PodioEventHandlerContainer_v1.231.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\melis\\source\\repos\\PodioEventHandlerContainer_v1.231\\PodioEventHandlerContainer_v1.231\\PodioEventHandlerContainer_v1.231.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\melis\\source\\repos\\PodioEventHandlerContainer_v1.231\\PodioEventHandlerContainer_v1.231\\PodioEventHandlerContainer_v1.231.csproj",
+        "projectName": "PodioEventHandlerContainer_v1.231",
+        "projectPath": "C:\\Users\\melis\\source\\repos\\PodioEventHandlerContainer_v1.231\\PodioEventHandlerContainer_v1.231\\PodioEventHandlerContainer_v1.231.csproj",
+        "packagesPath": "C:\\Users\\melis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\melis\\source\\repos\\PodioEventHandlerContainer_v1.231\\PodioEventHandlerContainer_v1.231\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\melis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/saasafras/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "PodioCore.Applications": {
+              "target": "Package",
+              "version": "[0.0.26, )"
+            },
+            "PodioCore.Async": {
+              "target": "Package",
+              "version": "[0.0.40, )"
+            },
+            "PodioCore.Comments": {
+              "target": "Package",
+              "version": "[0.0.7, )"
+            },
+            "PodioCore.Contacts": {
+              "target": "Package",
+              "version": "[0.0.5, )"
+            },
+            "PodioCore.Conversations": {
+              "target": "Package",
+              "version": "[0.0.3, )"
+            },
+            "PodioCore.Items": {
+              "target": "Package",
+              "version": "[0.0.25, )"
+            },
+            "PodioCore.Spaces": {
+              "target": "Package",
+              "version": "[0.0.9, )"
+            },
+            "Saasafras.PodioFunction": {
+              "target": "Package",
+              "version": "[0.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
