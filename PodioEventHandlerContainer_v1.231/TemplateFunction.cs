@@ -16,6 +16,7 @@ using PodioCore.Models;
 using PodioCore.Models.Request;
 using PodioCore.Services;
 using Saasafras.Event;
+using PodioCore.Comments;
 
 //Don't forget to configure the aws-lambda-tools-*.json
 //Use dotnet lambda deploy-function -cfg aws-lambda-tools-{NameOfThisFunction}.json 
