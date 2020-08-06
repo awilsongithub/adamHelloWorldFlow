@@ -4,24 +4,24 @@
     <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
-    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Admin\.nuget\packages\;C:\Microsoft\Xamarin\NuGet\</NuGetPackageFolders>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/adamwilson/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/adamwilson/.nuget/packages/</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.5.0</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.6.0</NuGetToolVersion>
   </PropertyGroup>
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.netcore.app\2.1.0\build\netcoreapp2.1\Microsoft.NETCore.App.props" Condition="Exists('$(NuGetPackageRoot)microsoft.netcore.app\2.1.0\build\netcoreapp2.1\Microsoft.NETCore.App.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.netcore.app/2.1.0/build/netcoreapp2.1/Microsoft.NETCore.App.props" Condition="Exists('$(NuGetPackageRoot)microsoft.netcore.app/2.1.0/build/netcoreapp2.1/Microsoft.NETCore.App.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\Admin\.nuget\packages\awssdk.core\3.3.100.1</PkgAWSSDK_Core>
-    <PkgAWSSDK_SQS Condition=" '$(PkgAWSSDK_SQS)' == '' ">C:\Users\Admin\.nuget\packages\awssdk.sqs\3.3.100.1</PkgAWSSDK_SQS>
-    <PkgAWSSDK_S3 Condition=" '$(PkgAWSSDK_S3)' == '' ">C:\Users\Admin\.nuget\packages\awssdk.s3\3.3.100.1</PkgAWSSDK_S3>
-    <PkgAWSSDK_Lambda Condition=" '$(PkgAWSSDK_Lambda)' == '' ">C:\Users\Admin\.nuget\packages\awssdk.lambda\3.3.100.1</PkgAWSSDK_Lambda>
-    <PkgAWSSDK_DynamoDBv2 Condition=" '$(PkgAWSSDK_DynamoDBv2)' == '' ">C:\Users\Admin\.nuget\packages\awssdk.dynamodbv2\3.3.100.1</PkgAWSSDK_DynamoDBv2>
-    <PkgAWSSDK_CloudWatchLogs Condition=" '$(PkgAWSSDK_CloudWatchLogs)' == '' ">C:\Users\Admin\.nuget\packages\awssdk.cloudwatchlogs\3.3.100.1</PkgAWSSDK_CloudWatchLogs>
-    <PkgAWSSDK_CloudWatchEvents Condition=" '$(PkgAWSSDK_CloudWatchEvents)' == '' ">C:\Users\Admin\.nuget\packages\awssdk.cloudwatchevents\3.3.100.1</PkgAWSSDK_CloudWatchEvents>
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">/Users/adamwilson/.nuget/packages/awssdk.core/3.3.100.1</PkgAWSSDK_Core>
+    <PkgAWSSDK_SQS Condition=" '$(PkgAWSSDK_SQS)' == '' ">/Users/adamwilson/.nuget/packages/awssdk.sqs/3.3.100.1</PkgAWSSDK_SQS>
+    <PkgAWSSDK_S3 Condition=" '$(PkgAWSSDK_S3)' == '' ">/Users/adamwilson/.nuget/packages/awssdk.s3/3.3.100.1</PkgAWSSDK_S3>
+    <PkgAWSSDK_Lambda Condition=" '$(PkgAWSSDK_Lambda)' == '' ">/Users/adamwilson/.nuget/packages/awssdk.lambda/3.3.100.1</PkgAWSSDK_Lambda>
+    <PkgAWSSDK_DynamoDBv2 Condition=" '$(PkgAWSSDK_DynamoDBv2)' == '' ">/Users/adamwilson/.nuget/packages/awssdk.dynamodbv2/3.3.100.1</PkgAWSSDK_DynamoDBv2>
+    <PkgAWSSDK_CloudWatchLogs Condition=" '$(PkgAWSSDK_CloudWatchLogs)' == '' ">/Users/adamwilson/.nuget/packages/awssdk.cloudwatchlogs/3.3.100.1</PkgAWSSDK_CloudWatchLogs>
+    <PkgAWSSDK_CloudWatchEvents Condition=" '$(PkgAWSSDK_CloudWatchEvents)' == '' ">/Users/adamwilson/.nuget/packages/awssdk.cloudwatchevents/3.3.100.1</PkgAWSSDK_CloudWatchEvents>
   </PropertyGroup>
 </Project>

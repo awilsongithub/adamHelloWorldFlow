@@ -5830,33 +5830,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/adamwilson/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\template\\PodioEventHandlerContainer_v1.231\\TemplateFunctionContainer.csproj",
+      "projectUniqueName": "/Users/adamwilson/code/c#/flows and fns/adamHelloWorldFlow/PodioEventHandlerContainer_v1.231/TemplateFunctionContainer.csproj",
       "projectName": "TemplateFunctionContainer",
-      "projectPath": "C:\\Users\\Admin\\Source\\Repos\\template\\PodioEventHandlerContainer_v1.231\\TemplateFunctionContainer.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Source\\Repos\\template\\PodioEventHandlerContainer_v1.231\\obj\\",
+      "projectPath": "/Users/adamwilson/code/c#/flows and fns/adamHelloWorldFlow/PodioEventHandlerContainer_v1.231/TemplateFunctionContainer.csproj",
+      "packagesPath": "/Users/adamwilson/.nuget/packages/",
+      "outputPath": "/Users/adamwilson/code/c#/flows and fns/adamHelloWorldFlow/PodioEventHandlerContainer_v1.231/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/adamwilson/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://www.myget.org/F/saasafras/auth/8aa64691-05ea-4031-98f9-a2dbaf8bf802/api/v3/index.json": {}
+        "https://www.myget.org/F/saasafras/auth/b897beeb-e0fc-4fed-a3c7-e5848498824b/api/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
@@ -5921,7 +5914,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
       }
     }
   }

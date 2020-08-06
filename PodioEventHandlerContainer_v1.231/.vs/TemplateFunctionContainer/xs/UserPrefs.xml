@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{05E6E707-E88C-4513-AFA0-475B2491D26E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="adamHelloWorldFlow.cs">
+    <Files>
+      <File FileName="adamHelloWorldFlow.cs" Line="88" Column="1" />
+      <File FileName="LambdaContainer.cs" />
+      <File FileName="StartUp.cs" />
+      <File FileName="aws-lambda-tools-adamHelloWorldFlow.json" />
+      <File FileName="Properties/launchSettings.json" />
+      <File FileName="obj/Debug/netcoreapp2.1/TemplateFunctionContainer.AssemblyInfo.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TemplateFunctionContainer" expanded="True">
+            <Node name="TemplateFunctionContainer" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="adamHelloWorldFlow.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.TemplateFunctionContainer PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

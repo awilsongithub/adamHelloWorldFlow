@@ -1,0 +1,4 @@
+/Users/adamwilson/code/c#/template/PodioEventHandlerContainer_v1.231/obj/Debug/netcoreapp2.1/linux-x64/TemplateFunctionContainer.csprojAssemblyReference.cache
+/Users/adamwilson/code/c#/template/PodioEventHandlerContainer_v1.231/obj/Debug/netcoreapp2.1/linux-x64/TemplateFunctionContainer.AssemblyInfoInputs.cache
+/Users/adamwilson/code/c#/template/PodioEventHandlerContainer_v1.231/obj/Debug/netcoreapp2.1/linux-x64/TemplateFunctionContainer.AssemblyInfo.cs
+/Users/adamwilson/code/c#/template/PodioEventHandlerContainer_v1.231/obj/Debug/netcoreapp2.1/linux-x64/TemplateFunctionContainer.csproj.CoreCompileInputs.cache

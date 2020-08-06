@@ -16,7 +16,7 @@ namespace Saasafras.Event.Container
         public IServiceCollection Configure(IServiceCollection services)
         {
             services.AddScoped<IAmazonCloudWatchLogs, AmazonCloudWatchLogsClient>();
-            services.AddScoped<IEventHandler<SaasafrasSolutionCommand<SaasafrasPodioEvent>>, TemplateFunctionContainer.MyHandler>();
+            services.AddScoped<IEventHandler<SaasafrasSolutionCommand<SaasafrasPodioEvent>>, adamHelloWorldFlowContainer.MyHandler>();
             services.AddScoped<ISolutionLoggerFactory, LambdaSolutionLoggerFactory>();
             services.AddScoped<ICommandLambdaMapper, DefaultCommandLambdaMapper>();
             services.AddScoped<IPreprocess<SaasafrasSolutionCommand<SaasafrasPodioEvent>>, PodioContainerPreprocessor>();
